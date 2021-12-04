@@ -1,0 +1,35 @@
+.header-input >input{
+    
+    border:1px solid #CACFD2 ;
+    width: 420px;
+    margin-left: -270px;
+    margin-top: 10px;
+
+
+}
+
+.header-input >input::placeholder{
+    font-size: 12px;
+ 
+
+
+}
+
+.header-inputButton{
+    height: 15px ;
+    width: 36px ; 
+    margin-left: 96px;
+    margin-top: -70px;
+    border-left:1px solid #CACFD2 ;
+    
+}
+
+.header-inputButton:hover{
+    background-color:#E5E8E8;
+}
+
+.micro:hover{
+    background-color: #ECF0F1;
+    border-radius: 50px;
+}
+

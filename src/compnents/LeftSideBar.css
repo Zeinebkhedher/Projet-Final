@@ -1,0 +1,13 @@
+.LeftSideContainer{
+    max-width:165px;
+    height:100%;
+    padding:75px;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    
+}
+.left:hover{
+    background-color: #F2F3F4;
+}

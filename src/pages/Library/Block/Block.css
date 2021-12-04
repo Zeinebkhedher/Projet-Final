@@ -1,0 +1,13 @@
+.block2{
+    max-width: 1350px;
+    margin-left: 44px;
+    margin-top: 17px;
+    
+}
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+

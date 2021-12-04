@@ -1,0 +1,53 @@
+/*thiz l vid kol img w details*/
+/*bin comp fou9 w comp ta7t*/
+.Video__comp{
+    margin-left: 0px;
+    margin-bottom:40px; 
+}
+
+img{
+    width:220px;
+    height: fit-content;
+}
+
+.avatar__block{
+}
+
+/*image avatar + klem*/
+.details{
+    width:230px; 
+    margin-top:5px;
+    display:flex; 
+    flex-direction:row; 
+    margin-left: -80px;
+    margin-left:0px;
+    /* margin-bottom:24px; espace ktiba w vid ta7t */
+} 
+
+.text{
+    margin-top: -5px;
+    max-width:200px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+/*channel*/
+.text > p{
+   
+    max-width:100px;
+    margin-left:0px;
+    font-size: 10px;
+    margin-top: -7px;
+    margin-bottom:2px;
+}
+/*title*/
+.text h3{
+    font-size:14px;
+    font-weight:500;
+    margin-top: 2px;
+}
+/*views + timelapse*/
+.text > small{
+    /* margin-top: -10px; */
+
+}

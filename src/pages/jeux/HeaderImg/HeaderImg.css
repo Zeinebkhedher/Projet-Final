@@ -1,0 +1,26 @@
+p{
+    margin-left: 620px;
+}
+span{
+    margin-top: 80px;
+    color: white;
+
+}
+.bouttonHeaderImage{
+    margin-top: 40px;
+}
+.hHeaderImage{
+    margin-left: 55px;
+    cursor: pointer;
+    color: white;
+  
+   
+}
+.spanHeaderImage{
+    margin-left: 55px;
+    cursor: pointer;
+}
+.contenuHeaderImage{
+    margin-left: 83px;
+  
+}

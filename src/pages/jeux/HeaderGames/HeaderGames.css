@@ -1,0 +1,27 @@
+.imageH{
+    border-radius: 50px;
+   height: 55px;
+   width: 55px;
+   margin-top: 12px;
+   margin-left: 40px;
+}
+
+.pHeader > p{
+    width:100px;
+}
+
+.jeuxHeader{
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 13px; 
+   
+}
+.aboonnésHeader{
+    font-size: 10px;
+    margin-top: -45px;
+    display: flex;
+}
+.pHeader{
+    margin-left: -597px;
+    width: 100px; 
+}

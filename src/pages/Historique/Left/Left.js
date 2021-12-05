@@ -5,7 +5,7 @@ import HVideo from '../../Explore/explore/HVideo/HVideo'
 function Left() {
     return (
         <div className='left'>
-            <h3>Watch History</h3>
+            <h5 style={{marginLeft:"58px"}}>Watch History</h5>
             <p className='when'>Today</p>
             <HVideo image='https://i.ytimg.com/vi/5R9jFHlG6ik/maxresdefault.jpg' title='SideBar Menu Tutorial React JS - Beginner Navigation Tutorial' channel='PedroTech' views='63K views' description='In this video I will show you guys how to make a responsive Sidebar In React Js. I showed you guys how I do this in an old video, but I...'/>
             <HVideo image='https://i.ytimg.com/vi/5R9jFHlG6ik/maxresdefault.jpg' title='SideBar Menu Tutorial React JS - Beginner Navigation Tutorial' channel='PedroTech' views='63K views' description='In this video I will show you guys how to make a responsive Sidebar In React Js. I showed you guys how I do this in an old video, but I...'/>

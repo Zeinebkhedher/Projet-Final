@@ -10,13 +10,15 @@ import {GrApps} from 'react-icons/gr';
 import {IoMdNotificationsOutline} from 'react-icons/io';
 import {CgProfile} from 'react-icons/cg';
 
+
 function Header() {
+       
     return (
       
 
             <Container style={{height:'45px'}} fluid>
                 <Row>
-                    <Col style={{marginTop:"9px",cursor:'pointer'}}><AiOutlineMenu />
+                    <Col style={{marginTop:"9px",cursor:'pointer'}}><AiOutlineMenu onClick={()=>setOpen(!open)}/>
                           <BsYoutube style={{color:"red" , marginLeft:"20px",marginRight:"7px",fontSize:"20px"}}/><b>YouTube</b><p style={{fontSize:"9px", color:"grey",marginLeft:"130px",marginTop:"-23px"}}>TN</p>
                     </Col>
                  

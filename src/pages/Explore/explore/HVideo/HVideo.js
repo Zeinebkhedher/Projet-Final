@@ -4,7 +4,7 @@ import './HVideo.css'
 function HVideo({image,title,channel,views,timelapse,description}) {
     return (
         <div className='hvideo'>
-            <img src={image} alt={title}/>
+            <img className="Hvexplore" src={image} alt={title}/>
             <div className='detailsHV'>
                 <h2>{title}</h2>
                 <p>{channel}.{views}.{timelapse}</p>

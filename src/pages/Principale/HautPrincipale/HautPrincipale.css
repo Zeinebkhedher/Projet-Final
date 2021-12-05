@@ -1,0 +1,48 @@
+
+body{
+    background-color: #F9F9F9;
+
+}
+
+.profilPrincipale{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+
+.subPrincipale{
+
+    font-size: 12px;
+    color: #606060;
+
+}
+
+.HPrincipale{
+    margin-left: 340px;
+    margin-top: -30px;
+    color: #030303;
+  
+}
+
+.verfPrincipale{
+
+    font-size: 10px;
+}
+
+.buttonPrincipale{
+    height: 40px;
+    border: none;
+    background-color: #CC0000;
+    color:#FFFFFF;
+    
+}
+
+.jnabPrincipale{
+    margin-left: 85%;
+    margin-top: -50px;
+    margin-bottom: -20px ;
+
+}

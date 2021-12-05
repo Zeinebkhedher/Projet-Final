@@ -1,0 +1,28 @@
+.textRecomd
+{
+  
+    margin-top: -102px;
+    margin-bottom: 3px;
+    font-family:Roboyo,Arial,sans-serif;
+    color:#606060;
+    font-size: 10px;
+    margin-left: 84px;
+    
+    width: 224px;
+}
+.HRecomd{
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    width: 170px;
+    margin-left: 10px;
+  
+
+}
+
+#ch{
+    margin-top: -10px;
+    margin-bottom:-1px;
+    margin-left:12px;
+    font-size: 10;
+}

@@ -1,0 +1,153 @@
+.GVideo{
+    margin-left: -70px;
+    margin-top: 20px;
+    max-width:90%;
+}
+
+.GVIcon{
+    width:50%;
+    height:50%s;
+
+}
+
+
+#hashtag{
+    color:#065FD4;
+    font-family: 12px Roboto,Arial,sans-serif;
+    font-size: 14px;
+   
+}
+
+.GVh3{
+    font-family: Roboto,Arial,sans-serif;
+    margin-top: -1px;
+    font-size: 20px;
+}
+
+.ligne {
+    display:flex;
+    color:#606060;
+    justify-content: space-between;
+    margin-top: -7px;
+    margin-bottom: -8px;
+}
+
+.GVli {list-style-type:none;
+padding-left:20px;
+margin-top: -20px;
+}
+
+.reaction{
+    display: flex;
+    margin-right: 320px;
+    justify-content: space-between;
+    color:#030303;
+    font-family: Roboto,Arial,sans-serif;
+    font-size:14px;
+  
+    
+}
+
+#icon{
+    width: 70px;
+    height: 70px;
+}
+
+#sub{
+    margin-left: 70px;
+    font-size: smaller;
+    color:#606060;
+    margin-top: 25%;
+    margin-left:-50px;
+    
+}
+
+#py{
+    margin-left: 10px;
+    margin-top:20px;
+    font-weight:bold;
+}
+.chaine{
+    display: flex;
+}
+
+hr{
+    margin-right: 50%;
+}
+
+.contenu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50%;
+}
+
+.GVbutton{
+    
+   
+    border:none;
+    margin-right: 30px;
+    
+}
+
+#subb
+{
+    padding-top: -100px;
+    padding-bottom: -100px;
+    margin-left: 330px;
+    font-size: 14px;
+}
+
+p{
+    width:40%;
+    margin-left:5%;
+}
+
+#sort{
+    font-weight:bold;
+    font-family:'Times New Roman';
+    font-size: 16px;
+    margin-left:20px;
+}
+
+.comm{
+    margin-top:20px;
+}
+
+.inputGV{
+    border:none;
+    margin-left: -20px;
+    border-bottom: 1px solid black; 
+    width:47%;
+    margin-top:-20px;
+    font-size: 15px;
+}
+
+.inputGV:focus{
+    outline:transparent;
+}
+
+.profile
+{
+  margin-top: 20px;  
+  display: flex;
+}
+.butns
+{
+    float: right;
+    margin-right:280px;
+   margin-top: 10px;
+}
+#but
+{
+    background:#065FD4;
+    color:white;
+}
+
+#but:disabled{
+    background: #0000000D;
+    color:rgb(180, 180, 180);
+}
+
+#icon{
+    font-size:200%;
+}

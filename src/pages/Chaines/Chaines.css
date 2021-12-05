@@ -1,0 +1,29 @@
+.parent
+{
+    margin-top:11px;
+    margin-left: 265px;
+  
+}
+#best
+{
+    margin-left: 100px;
+}
+.lkol
+{
+    display: flex;
+    
+}
+body{background-color:#F9F9F9;}
+hr{
+    width:75%;
+    margin-right:18%;
+    margin-top: 2%;
+}
+.lfou9
+{display: flex;
+justify-content: space-between;
+padding-right: 18%;
+}
+#fleche{
+    margin-left: 10%;
+}

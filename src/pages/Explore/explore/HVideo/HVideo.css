@@ -1,6 +1,6 @@
 /*lkol*/
 .hvideo{
-   
+    border-radius: 0px !important;
     display: flex;
     flex-direction: row;
     width: 620px;
@@ -8,7 +8,9 @@
     margin-left: 61px; 
     cursor: pointer;
 }
-
+.Hvexplore{
+    border-radius: 0px !important;
+}
 /*lktiba lkooool*/
 .detailsHV{
     display: flex;
@@ -21,6 +23,7 @@
 .hvideo img{
     width: 217px;
     height: fit-content;
+    border-radius: 0px !important;
 }
 
 /*title*/

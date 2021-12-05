@@ -6,13 +6,13 @@ function Video({img1,img2,title,channel,view,timelapse}) {
         <div className='recom_space'>
             <div className='Video__comp'>
                 <div>
-                    <img src={img1} alt={title}></img>
+                    <img className="videoVid" src={img1} alt={title}></img>
                 </div>
-                <div className='details'>
+                <div className='detailsVideoVid'>
                     <div className='avatar__block'>
                         <Avatar src={img2} className='avatar'/>
                     </div>
-                    <div className="text">
+                    <div className="textVideoVid">
                         <h3>{title}</h3>
                         <p>{channel}</p>
                         <small>{view} . {timelapse}</small>

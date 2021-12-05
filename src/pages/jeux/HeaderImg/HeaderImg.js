@@ -4,7 +4,7 @@ import './HeaderImg.css';
 
 function HeaderImg() {
     return (
-        <div  style={{backgroundColor:'grey',marginLeft:'-225px',height:"270px",marginTop:'-92px',width:"1400px"}}>
+        <div className="Imagejeux" style={{marginLeft:'-245px',height:"270px",marginTop:'-92px',width:"1400px"}}>
         <Container>
                 <Row>
                     <Col >
@@ -14,7 +14,7 @@ function HeaderImg() {
                            <div className="bouttonHeaderImage" style={{display:'flex'}}>
                                 <Button style={{marginLeft:'55px',color:'white',height:'35px',width:'110px',backgroundColor:"transparent",borderColor:'white',cursor:'pointer'}}>Regarder</Button>
                                 <div style={{display:"flex"}}>
-                                    <img src="gam-09-online-gaming.jpg" />
+                                    <img src= ""/>
 
                                  </div>
                            </div>

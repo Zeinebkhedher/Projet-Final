@@ -11,12 +11,18 @@ import Library from './pages/Library/Librabry';
 import {Link} from 'react-router-dom';
 import Explore from './pages/Explore/Explore'
 import Historique from './pages/Historique/Historique';
+import Actualite from './pages/Actualite/Actualite';
+import Parametres from './pages/Parametres/Parametres'
+import Biblio from './pages/Biblio/Biblio';
+import Chaines from './pages/Chaines/Chaines'
+import Main from './pages/Main/Main';
+import Principale from './pages/Principale/Principale';
+
 function App() {
   return (
-    <div className="App">
-       <header className="App-header">
+   
      
-     <Container fluid p>
+      <Container fluid p>
            <Row>
                 <Col><Header/></Col>
        
@@ -48,7 +54,7 @@ function App() {
           
             <Row>
                 <Col> 
-                    <Historique />
+                    <Principale/>
                  </Col>
             </Row> 
             
@@ -59,14 +65,14 @@ function App() {
        </Container>
 
      
-      
+   
     
-    </header>
+   
 
 
 
 
-    </div>
+  
   );
 }
 

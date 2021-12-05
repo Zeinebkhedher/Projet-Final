@@ -1,0 +1,30 @@
+
+@keyframes LeftToRight{
+    0%{
+        width:0px;
+    }
+   
+    100%{
+        width:148px;
+    }
+}
+
+@keyframes RightToLeft{
+    0%{
+        width:148px;
+    }
+    100%{
+        width:0px;
+    }
+}
+.leftoright{
+    animation-name:LeftToRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.righttoleft{
+    animation-name:RightToLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}

@@ -5,10 +5,19 @@ import "./ImagesJeux.css"
 import {MdNavigateNext} from "react-icons/md"
 function ImagesJeux() {
     return (
+
+
+
+
+
+
+
+
+
         <Container >
             <Row style={{marginLeft:"-180px",marginTop:"20px"}}>
                 <Col >
-                        <img className="jeux1" src="//yt3.ggpht.com/k4P0U9cFyGPA_P_9Zxio6up3YC3UG13DZ1_yes69iYf2dXYR0LixD7hsMCTFdvtMn0-lWTpz" />
+                        <img className="jeux1" src="//yt3.ggpht.com/gOYoKI92Vf16DzVh_wKZ9fBsHrbFX6wNdGhvjcpkB_eqC-2qCZA4DTZgnvp4u4_oFOysr8ASjw" />
                       <div >
                           <p className="j1">Mobile legends:Bang bang</p>
                           <small className="j1" style={{color:"#797D7F"}}> 27 K sepectateurs </small>
@@ -18,7 +27,7 @@ function ImagesJeux() {
 
 
                 <Col>
-                <img className="img2" src="//yt3.ggpht.com/6p_qnTjJsMth35XTOMmFzrVyB6HkFsaTNJHE741EYkG396vhDFhCNDpaoK4A-HxvCROqnNBilQ"/>
+                <img className="img2" src="//yt3.ggpht.com/-q1MbFr9kGdNcIi07-l4DHbNdtHSeGpBxSI5zbIRzp-1EqH70k6DRrK7UVthwoKBp70M1IRriA"/>
                 <div >
                           <p className="j2"><b>Counter-Strike</b></p>
                           <small className="j2"> 27 K sepectateurs </small>

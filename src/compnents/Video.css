@@ -5,16 +5,18 @@
     margin-bottom:40px; 
 }
 
-img{
-    width:220px;
+.videoVid{
+    width:200px;
     height: fit-content;
+    border-radius: 0;
+    
 }
 
 .avatar__block{
 }
 
 /*image avatar + klem*/
-.details{
+.detailsVideoVid{
     width:230px; 
     margin-top:5px;
     display:flex; 
@@ -24,7 +26,7 @@ img{
     /* margin-bottom:24px; espace ktiba w vid ta7t */
 } 
 
-.text{
+.textVideoVid{
     margin-top: -5px;
     max-width:200px;
     font-size: 10px;
@@ -32,7 +34,7 @@ img{
 }
 
 /*channel*/
-.text > p{
+.textVideoVid > p{
    
     max-width:100px;
     margin-left:0px;
@@ -41,7 +43,7 @@ img{
     margin-bottom:2px;
 }
 /*title*/
-.text h3{
+.textVideoVid h3{
     font-size:14px;
     font-weight:500;
     margin-top: 2px;

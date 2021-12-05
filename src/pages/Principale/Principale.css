@@ -1,0 +1,10 @@
+.hrPrin{
+    width:70%;
+    height: 1px;
+    margin-left: 280px;
+}
+.tousvidPrin{
+    display: flex;
+    flex-wrap: wrap;
+}
+

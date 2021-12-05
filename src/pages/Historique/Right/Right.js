@@ -7,67 +7,64 @@ import {BsSearch} from 'react-icons/bs'
  
 function Right() {
     return (
-       <Container style={{marginLeft:'-680px',width:'500px',backgroundColor:'#F2F4F4',height:'1000px',marginTop:'-29px'}}>
-           <Row style={{marginLeft:'20px'}} >
+       <Container style={{marginLeft:'-530px',width:'380px',backgroundColor:'#F2F4F4',height:'1000px',marginTop:'-29px'}}>
+           <Row style={{marginLeft:'-21px'}} >
                <Col > 
-               <BsSearch /><input type='text'  placeholder="Recherche dans l'historique You..." style={{marginTop:'50px',borderRadius:'5px',borderColor:"transparent",borderBottomColor:'black'  ,backgroundColor:'transparent',width:'350px',height:'47px'}} /> 
+               <BsSearch style={{fontSize:"10px"}}/><input type='text'  placeholder="Recherche dans l'historique You..." style={{marginTop:'35px',fontSize:"10px",borderRadius:'5px',borderColor:"transparent",borderBottomColor:'black'  ,backgroundColor:'transparent',width:'250px',height:'41px'}} /> 
                  
                </Col>
             </Row>
 
-            <Row style={{marginTop:"38px",marginLeft:'20px'}}> 
-                <Col style={{fontSize:'20px'}}>
+            <Row style={{marginTop:"6px",marginLeft:'-10px'}}> 
+                <Col style={{fontSize:'13px'}}>
                  Type d'historique
                 </Col>
             </Row>
-             <hr style={{width:'450px',marginLeft:'20px'}}></hr>
+             <hr style={{width:'350px',marginLeft:'-5px',marginTop:"11px"}}></hr>
            
            
-            <Row style={{border:'1px solid yellow',marginTop:'35px',fontSize:"10px",marginBottom:'5px',marginLeft:'-600px',marginLeft:"5px",width:"450px"}}>
-                <Col style={{border:'1px solid red',display:'flex', justifyContent:'space-between',marginLeft:"-610px"}}>
-                <div style={{border:'1px solid blue',width:'200px'}}>
-                    <p >
-                        historique de visionnage 
-                    </p>
-                    <input type="radio" style={{marginTop:'15px',marginLeft:"350px"}} /> 
+            <Row style={{marginTop:'-13px',fontSize:"10px",marginBottom:'5px',marginLeft:'-670px',marginLeft:"5px",width:"350px"}}>
+                <Col style={{display:'flex', justifyContent:'space-between',marginLeft:"-634px"}}>
+                   <div style={{width:'200px'}}>
+                          <p style={{width:"150px",marginTop:"5px",marginLeft:"613px"}} >
+                           historique de visionnage
+                        </p>
+                       <div style={{marginTop:"-22px",marginLeft:"940px"}}>
+                          <input type="radio"/> 
+                       </div>
                     </div>
                 </Col>
            </Row>
       
-           <hr style={{width:'450px',marginLeft:'20px'}}></hr>
+           <hr style={{width:'350px',marginLeft:'-5px',marginTop:"-5px"}}></hr>
 
 
-            <Row style={{marginTop:'35px',fontSize:"15px",marginLeft:'-600px'}}>
-                <Col style={{display:'flex'}}>
-                  <p>Communauté</p>  <input type="radio" style={{marginLeft:'285px',marginTop:'12px',fontSize:'30px'}} /> 
+            <Row style={{marginTop:'-12px',fontSize:"11px",marginLeft:'-600px'}}>
+                <Col style={{display:'flex',marginLeft:"-20px"}}>
+                    <p style={{width:"150px",marginTop:"5px",marginLeft:"610px"}}>Communauté</p>  <input type="radio" style={{marginLeft:'254px',marginTop:'12px',fontSize:'30px'}} /> 
                 </Col>
             </Row>
 
-            <hr style={{width:'450px',marginLeft:'20px'}}></hr>
+            <hr style={{width:'350px',marginLeft:'-5px',marginTop:"-3px"}}></hr>
 
 
-            <Row style={{marginTop:'40px',marginLeft:'39px',cursor:'pointer'}}>
-                <Col><FaRegTrashAlt style={{fontSize:'20px',marginRight:'8px'}} /> Effacer tout l'historique des vidéos regardées</Col>
+            <Row style={{marginTop:'10px',marginLeft:'-17px',cursor:'pointer'}}>
+                <Col  style={{fontSize:'13px'}}>
+                <FaRegTrashAlt style={{marginRight:'8px'}} /> Effacer tout l'historique des vidéos regardées</Col>
             </Row>
 
-            <Row style={{marginLeft:'39px',marginTop:'16px',cursor:'pointer'}}>
-                <Col>
-                <AiOutlinePauseCircle style={{fontSize:'20px',marginRight:'8px' }}/>  SUSPENDRE L'HISTORIQUE
+            <Row style={{marginLeft:'-17px',marginTop:'10px',cursor:'pointer'}}>
+                <Col style={{fontSize:'13px'}}>
+                <AiOutlinePauseCircle style={{marginRight:'8px' }}/>  SUSPENDRE L'HISTORIQUE
                 </Col>
             </Row>
 
-            <Row style={{marginLeft:'39px',marginTop:'16px',cursor:'pointer'}}>
-                <Col>
-                <FiSettings style={{fontSize:'20px',marginRight:'8px'}} /> Gérer tout l'historique
+            <Row style={{marginLeft:'-16px',marginTop:'10px',cursor:'pointer'}}>
+                <Col  style={{fontSize:'13px'}}>
+                <FiSettings style={{fontSize:'13px',marginRight:'8px'}} /> Gérer tout l'historique
                 </Col>
             </Row>
-            <Row style={{marginLeft:"82px",marginTop:'13px'}}>
-                <Col>
-                <p style={{cursor:'pointer'}}>Historique des recherches et des vidéos regardés</p>
-                <p style={{cursor:'pointer'}}>Commentaires</p>
-                <p style={{cursor:'pointer'}}>Chat en direct</p>
-                </Col>
-            </Row>
+            
 
        </Container>
     )
